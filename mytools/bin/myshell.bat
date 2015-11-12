@@ -1,6 +1,9 @@
 @echo off
 
+cd /d %~dp0
 color 0a
+title myshell
+
 :begin
 	echo %cd%
 	set command=
